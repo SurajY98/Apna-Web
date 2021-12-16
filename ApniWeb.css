@@ -1,0 +1,184 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 90px;
+    color: white;
+    
+}
+
+header {
+    padding: 40px;
+    background-color: rgb(161, 224, 235);
+    background-attachment: fixed;    
+}
+
+nav {
+    display: flex;
+    background-color: #333;
+    /* overflow: hidden; */
+}
+
+nav a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+nav a:hover{
+ color: rgb(186, 186, 238);
+}
+
+main {
+    background-color: rgb(187, 178, 178);
+    text-align: center;
+}
+
+h2 {
+    padding: 20px;
+}
+
+
+/* Collage Review */
+section:nth-child(even) {
+    background-color: rgb(196, 190, 190);
+}
+
+
+/* this for study material */
+section {
+    min-height: 100vh;
+}
+
+video {
+    padding: 10px;
+}
+
+iframe {
+    height: 50vh;
+}
+
+img {
+    padding: 12px;
+}
+
+section h5 {
+    margin: 40px;
+}
+
+footer {
+    display: flex;
+    background-color: #333;
+    /* overflow: hidden; */
+}
+
+footer a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+
+
+
+
+
+/* This coding id for Register Form  */
+
+
+
+section {
+    /* background-color: rgb(198, 198, 235); */
+    text-align: center;
+}
+
+section h2 {
+    margin: 0%;
+}
+
+#submit {
+    background-color: rgb(134, 134, 180);
+}
+
+.formcss {
+    background-color: rgb(226, 214, 222);
+}
+
+
+
+.LoginShiftRight{
+    margin-left: auto;
+}
+
+section h2 span {
+    background:linear-gradient(to right, #f5d837,#bbb812);
+    padding: 10px 55px;
+    border-radius: 20px;
+    color: white;
+}
+
+
+.Profile_pic {
+    border-radius: 60%;
+}
+
+.Profile_name {
+    font-size: 2em;
+    font-weight: 900;
+    letter-spacing: 4px;
+    word-spacing: 10px;
+    text-transform: uppercase;
+    margin: 20px 0px 30px 0px;
+}
+
+.Social_media a {
+    background-color:rgb(125 125 125/25%);
+    padding: 10px 15px;
+    border-radius: 30px;
+    margin: 5px 10px;
+    text-decoration: none;
+}
+
+.about_us {
+    margin: 50px;
+}
+.title_ {
+    font-size: 1.45em;
+    padding: 0px 10px;
+    color: #120f5e
+}
+
+.about_content {
+    color: #1c1a3a;
+    font-weight: 900;
+    padding: 10px 0px 20px 0px;
+}
+
+/* media quary for navbar */
+@media screen and (max-width: 700px) {
+    nav {
+        flex-direction: column;
+        padding: 10px  0px;
+    }
+    .LoginShiftRight{
+        margin-left: 0;
+    }
+    footer {
+        flex-direction: column;
+    }
+    
+}
+
+
+
+
+
